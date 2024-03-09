@@ -1,26 +1,5 @@
-.page {
-  min-width: 1100px;
-  max-width: 1600px;
-  margin: 0 auto;
-  font-family: Inter, Arial, sans-serif;
-  font-size: 16px;
-  line-height: 20px;
-}
-
-.header {
-  padding: 30px 80px 40px;
-  min-height: 720px;
-  max-height: 800px;
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  background-image: url(../images/background_header.svg);
-  background-color: #fff;
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  box-sizing: border-box;
-}
+@import url(../blocks/page.css);
+@import url(../blocks/header.css);
 
 .nav {
   display: flex;
@@ -50,67 +29,6 @@
 .nav__link {
   color: #000;
   text-decoration: none;
-}
-
-.header__title {
-  max-width: 729px;
-  font-size: 60px;
-  font-family: "Inter", Arial, sans-serif;
-  line-height: 72px;
-  margin: 183px 0 28px;
-  letter-spacing: -0.6px;
-  font-style: normal;
-  font-weight: 500;
-  z-index: 1;
-}
-
-.header__description {
-  max-width: 683px;
-  font-size: 20px;
-  line-height: 30px;
-  margin: 28px 0 0;
-  font-family: "Noto Serif", "Times New Roman", serif;
-  font-style: normal;
-  font-weight: normal;
-}
-
-.header__span-accent {
-  display: block;
-  font-weight: normal;
-  color: #2f80ed;
-  font-family: "Noto Serif", "Times New Roman", serif;
-  font-style: italic;
-  font-size: 60px;
-  line-height: 72px;
-}
-
-.header__footer {
-  display: flex;
-  justify-content: space-between;
-  box-sizing: border-box;
-  margin-top: auto;
-  color: #838383;
-  line-height: 20px;
-  font-size: 16px;
-  font-weight: 500;
-  font-style: normal;
-  font-family: "Inter", Arial, sans-serif;
-  width: 100%;
-  align-items: flex-end;
-  z-index: 1;
-}
-
-.header__paragraph {
-  margin: 0;
-  color: #6f6f6f;
-}
-
-.header__image {
-  position: absolute;
-  top: 124px;
-  right: 5px;
-  width: 646px;
-  height: 568px;
 }
 
 .recipes {
