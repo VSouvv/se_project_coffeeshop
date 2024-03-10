@@ -1,2 +1,68 @@
-add keyframes here
-import normalize.css to index.css normalize comes before index.css
+.about {
+  background-color: #0a2850;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  overflow: hidden;
+}
+
+.about__title {
+  max-width: 251px;
+  padding: 80px 100px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+  margin: 0;
+  color: white;
+  z-index: 2;
+}
+
+.about__content {
+  font-family: "Noto Serif";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  color: white;
+  max-width: 660px;
+  padding: 119px 173px 80px;
+}
+
+.about__paragraph {
+  display: flex;
+  gap: 20;
+}
+
+.about__circle {
+  border-radius: 50%;
+  background-color: #2f80ed;
+  width: 426px;
+  height: 426px;
+  z-index: 1;
+  position: absolute;
+  top: -152px;
+  left: -129px;
+}
+
+.about__circle_animation_blurred {
+  animation: pulsate 1.3s ease-in-out infinite;
+}
+
+@keyframes pulsate {
+  0% {
+    opacity: 0;
+    transform: scale(1);
+  }
+
+  50% {
+    opacity: 0.6;
+    transform: scale (1);
+  }
+
+  100% {
+    opacity: 0;
+    transform: scale(1.5);
+  }
+}
