@@ -43,11 +43,22 @@
   z-index: 1;
   position: absolute;
   top: -152px;
-  left: -129px;
+  left: -120px;
+  padding: 0;
 }
 
 .about__circle_animation_blurred {
   animation: pulsate 1.3s ease-in-out infinite;
+  transform: scale(1.1);
+  border-radius: 50%;
+  background-color: #2f80ed;
+  width: 426px;
+  height: 426px;
+  z-index: 1;
+  position: absolute;
+  top: -152px;
+  left: -120px;
+  padding: 0;
 }
 
 @keyframes pulsate {
