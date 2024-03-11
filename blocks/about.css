@@ -31,7 +31,16 @@
 
 .about__paragraph {
   display: flex;
-  margin: 20px auto;
+  margin: 0;
+}
+
+.about__paragraph:nth-child(2) {
+  margin-top: 20px;
+}
+
+.about__paragraph:nth-child(3) {
+  margin-top: 20px;
+  margin-bottom: 73px;
 }
 
 .about__circle {
