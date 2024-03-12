@@ -26,7 +26,7 @@
 .nav__link {
   color: #000;
   text-decoration: none;
-  transition: ease-in-out;
+  transition: color 0.3s ease-in-out;
 }
 
 .nav__link:hover {
