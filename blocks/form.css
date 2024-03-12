@@ -18,6 +18,10 @@
   line-height: 20px;
 }
 
+.form__label:last-of-type {
+  margin-bottom: 0;
+}
+
 .form__input {
   display: block;
   border: 1px solid #838383;

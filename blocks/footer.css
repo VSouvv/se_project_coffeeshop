@@ -46,6 +46,7 @@
 .footer__social-link {
   color: #fff;
   text-decoration: none;
+  transition: ease-in-out;
 }
 
 .footer__social-link:hover {
